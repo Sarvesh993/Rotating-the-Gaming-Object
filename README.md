@@ -34,10 +34,32 @@ Create a folder name Coding and create a C# file to add the coding in it.
 To add our C# Script file to our selected object, click on the C# Script file and drag it to our selected objects in the Hierarchy window nad run the application.
 
 ### Start8:
-Stop
+Stop.
 
+Developed by: P.Sarveshvaran.
 ## Program:
+~~~
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Threading;
+using UnityEngine;
 
+public class NewBehaviourScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 40 * Time.deltaTime);
+    }
+}
+~~~
 ## Output:
 
 ## Result:
