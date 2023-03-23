@@ -63,4 +63,4 @@ public class NewBehaviourScript : MonoBehaviour
 ## Output:
 ![output](sarvesh.png)
 ## Result:
-Thus the output for the rotating the object.
+Thus the output for the rotating the object successfully displayed.
